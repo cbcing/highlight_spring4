@@ -10,6 +10,8 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("github测试－－第一次更新");
+        
+        System.out.println("github测试－－第二次更新，来自github.com");
 
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AopConfig.class);
 
