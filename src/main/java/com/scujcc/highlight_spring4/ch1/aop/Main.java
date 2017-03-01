@@ -8,6 +8,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Main {
 
     public static void main(String[] args) {
+
+        System.out.println("github测试－－第一次更新");
+
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AopConfig.class);
 
         DemoAnnotationService demoAnnotationService = context.getBean(DemoAnnotationService.class);
